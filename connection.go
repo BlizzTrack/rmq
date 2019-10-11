@@ -2,12 +2,12 @@ package rmq
 
 import (
 	"fmt"
+	"github.com/go-redis/redis/v7"
 	"log"
 	"strings"
 	"time"
 
 	"github.com/adjust/uniuri"
-	"github.com/go-redis/redis"
 )
 
 const heartbeatDuration = time.Minute
